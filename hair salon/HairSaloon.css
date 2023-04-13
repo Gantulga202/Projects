@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'PT Serif', serif;
+}
+                                /* Header */
+header nav ul > li {
+    float: left;
+    width: 8%;
+    /* border: 1px solid; */
+    list-style: none;
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+}
+.SalonLogo {
+    width: 20%;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+.icon {
+    width: 5%;
+}
+.bookOnline {
+    width: 22%;
+}
+                                /* First section */
+header + section {
+    clear: both;
+    height: 750px;
+    background-image: linear-gradient(to right, rgb(128, 85, 85, 0.5), rgba(252, 249, 249, 0)), 
+    url(model.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 5% 40% 0 10%;
+}
+header + section h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+header + section p {
+    color: white;
+}
+header + section button {
+    padding: 10px 15px;
+    background: black;
+    color: white;
+}
+header + section > section {
+    border: 1px solid;
+    margin: 10% 65% 0 0;
+    padding: 4%;
+    background: black;
+}
+header + section > section span {
+    font-weight: bold;
+    font-size: 30px;
+}
+header + section > section p {
+    font-size: 12px;
+    padding: 4%;
+}
+header + section > section button {
+    background: white;
+    color: black;
+}
+                                /* Second section */
+.sectiontwo {
+    margin: 0 12%;
+}
+.sectiontwo article {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}
+p {
+    font-size: 14px;
+    color: gray;
+    padding: 4%;
+}
+                                /* Third section */
+.sectionthree {
+    clear: both;
+    margin: 0 12%;
+}
+.sectionthree section {
+    float: left;
+    width: 50%;
+    padding-top: 10%;
+    text-align: left;
+    height: 400px;
+}
+h2 {
+    font-size: 30px;
+    padding-right: 20%;
+    margin: 0;
+    
+}
+.sectionthree p {
+    padding: 10% 20% 10% 0;
+}
+.sectionthree button {
+    padding: 10px 15px;
+    background: black;
+    color: white;
+}
+.sectionthree img {
+    width: 100%;
+    padding-left: 10%;
+}
+                                /* Fourth section */
+.sectionfour {
+    clear: both;
+    margin: 0 12%;
+}
+.sectionfour article {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding-top: 10%;
+}
+.sectionfour article section {
+    background: black;
+    margin: 0 15%;
+    padding: 2% 0;
+}
+.sectionfour article span {
+    display: block;
+    color: white;
+}
+.sectionfour span + span {
+    font-size: 10px;
+    padding-top: 2%;
+}
+                                /* Fourth section */
+.sectionfive {
+    clear: both;
+    margin: 0 10%;
+}
+.sectionfive section {
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.sectionfive img {
+    width: 80%;
+}
+.sectionfive section {
+    padding-top: 10%;
+}
+.sectionfive section:first-child {
+    padding: 20% 2% 0 15%;
+}
+.sectionfive p {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    margin: 0;
+}
+.sectionfive p + p {
+    font-size: 20px;
+}
+.sectionfive span {
+    font-size: 25px;
+    font-weight: 800;
+}
+.sectionfive button {
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    margin-top: 10%;
+}
+                                /* Sixth section */
+.sectionsix {
+    clear: both;
+    margin: 0 10%;
+}
+.sectionsix h2 {
+    text-align: center;
+    padding: 10% 0 1% 0;
+}
+hr {
+    margin: 0 48% 5% 48%;
+    height: 5px;
+    background: black;
+}
+.sectionsix section {
+    border: 1px solid;
+    padding: 0;
+}
+.sectionsix img {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 5%; 
+}
